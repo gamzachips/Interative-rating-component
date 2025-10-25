@@ -1,0 +1,121 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(216, 12%, 8%);
+    color:white;
+    font-family: sans-serif;
+}
+
+.card{
+    background: linear-gradient(hsl(213, 19%, 18%), hsl(213, 19%, 12%));
+    border-radius: 20px;
+    width: 320px;
+    height: 340px;
+    padding: 24px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    text-align:left;
+}
+p {
+    color:hsl(217,12%,63%);
+    font-size: 0.8rem;
+    line-height:1.5;
+    letter-spacing: 0.02em;
+    text-align:left;
+}
+
+.button {
+    width: 45px;
+    height: 45px;
+    background: hsl(213, 19%, 22%);
+    color: hsl(217, 12%, 63%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    font-weight: bold;
+}
+
+.button:hover{
+    background:hsl(24, 97%, 53%);
+    color:white;
+    cursor:pointer;
+}
+
+.button.selected{
+    background:white;
+    color:black;
+}
+
+
+.ratings{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px 0;
+    gap: 10px;
+}
+
+.submit{
+    width: 300px;
+    height:45;
+    border-radius: 20px;
+    background: hsl(24, 97%, 53%);
+    color:black;
+    font-weight:bold;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    letter-spacing: 5px;
+}
+
+.submit:hover{
+    background:white;
+    color:black;
+}
+
+.icon {
+    width: 45px;
+    height: 45px;
+    background: hsl(213, 19%, 22%);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.icon img{
+    width: 16px;
+    height: 16px;
+}
+
+.result {
+    width: 320px;
+    height: 32px;
+    margin: 0 auto 26px auto;
+    border-radius: 20px;
+    background: hsl(213, 19%, 22%);
+    color:hsl(24, 97%, 53%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    cursor:pointer;
+    letter-spacing: 1px;  
+}
+
+.hidden{
+    display:none;
+}
+
+.thankyou-image{
+    width: 150px;
+    height: 100px;
+    margin-top:20px;
+    margin-bottom: 40px;
+}

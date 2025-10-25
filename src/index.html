@@ -1,0 +1,40 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+        <!-- 점수 제출 화면 -->
+    <div id="rating-card" class="card">
+        <div class="icon">
+        <img src="images/icon-star.svg" alt="star icon" class="image">
+        </div>
+        
+        <h1>How did we do?</h1>
+        <p>Please let us know how we did with your support request. All feedback is appreciated to hep us improve our offering!</p>
+
+        <div class="ratings">
+            <div class="button">1</div>
+            <div class="button">2</div>
+            <div class="button">3</div>
+            <div class="button">4</div>
+            <div class="button">5</div>
+        </div>
+
+        <div id="submit-btn" class="submit">
+            SUBMIT
+        </div>
+    </div>
+    <!-- 제출 후 화면-->
+    <div id="thankyou-card" class="card hidden">
+        <img src="images/illustration-thank-you.svg" alt="thankyou image", class="thankyou-image">
+        <div class="result">
+            You selected&nbsp;<span id="score"></span>&nbsp;out of 5
+        </div>
+        <h1 style="text-align: center;">Thank you!</h1>
+        <p style="text-align: center;">We appreciate you taking the time to give a rating. It you ever nedd more support, don't hesitate to get in touch!</p>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
