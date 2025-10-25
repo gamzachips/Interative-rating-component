@@ -1,8 +1,8 @@
-/* ✅ 모바일 화면 (가로폭 480px 이하일 때) */
+
 @media (max-width: 900px) {
   body {
     padding: 20px;
-    height: auto; /* 100vh 대신 내용에 맞게 */
+    height: auto; 
   }
 
   .card {
